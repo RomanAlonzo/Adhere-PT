@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_marginTop="@dimen/margin_sm"
+    android:layout_marginBottom="@dimen/margin_lg">
+
+    <Button
+        android:id="@+id/take_picture_btn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/round_button"
+        android:textColor="#fff" />
+
+    <ProgressBar
+        android:id="@+id/snapshot_spinner"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:indeterminateTint="#fff"
+        android:visibility="gone" />
+</RelativeLayout>
